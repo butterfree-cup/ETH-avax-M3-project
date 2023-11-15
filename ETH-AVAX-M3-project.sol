@@ -36,9 +36,4 @@ contract MyToken is ERC20{
         return super.transfer(recipient, amount);
     }
 
-    // to allow transfers made by a third-party
-    function transferFrom(address sender, address recipient, uint256 amount) public override returns (bool) {
-        require(amount <= 100, "Maximum transfer amount is 100!");
-        return super.transferFrom(sender, recipient, amount);
-    }
 }
