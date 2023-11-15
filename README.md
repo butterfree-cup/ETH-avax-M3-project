@@ -15,15 +15,14 @@ This smart contract, MyToken, demonstrates the creation of an ERC20 token. It fo
     - Users can transfer tokens to other addresses.
     - The maximum transfer amount is restricted to 100 tokens to prevent large transfers.
     - Transfer directly from the sender using the transfer function.
-    - Allow transfers made by a third-party using the transferFrom function.
 
 ## Getting Started
 To deploy and interact with MyToken:
 
 1. Deploy the contract on the Ethereum blockchain.
-2. Mint initial tokens using the mint function, accessible only to the contract owner.
-3. Burn tokens using the burn function.
-4. Transfer tokens using the 'transfer' and 'transferFrom' functions.
+2. Mint initial tokens using the 'mint' function, accessible only to the contract owner.
+3. Burn tokens using the 'burn' function.
+4. Transfer tokens using the 'transfer' function.
 
 Note: OpenZeppelin Contracts Library version 4.0.0 was used in this contract.
 
